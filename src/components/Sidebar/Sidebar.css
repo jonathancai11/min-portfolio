@@ -1,6 +1,13 @@
 .Sidebar {
     display: flex;
     flex-direction: column;
-    width: 100px;
-    margin: 30px;
+    width: 150px;
+    margin: 40px;
 }
+
+@media only screen and (max-width: 600px) {
+    .Sidebar {
+        margin: 0px;
+    }
+}
+  

@@ -26,7 +26,7 @@ export default function Work(props) {
             </p>
 
             <p>
-                At Rice, I've TA'd a few classes and had an unfortunately short and hardly significant undergrad research stint in deep learning.
+                At Rice, I've TA'd a few CS courses and had an unfortunately short and hardly significant undergrad research stint in deep learning.
             </p>
 
             <p>For more details, check out <a target="_blank" rel="noopener noreferrer" href={pdf}>my resume</a>.</p>

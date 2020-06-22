@@ -7,10 +7,10 @@ export default function Projects(props) {
     
     return (
         <div>
-            <p>Here is every project I've ever worked on, along with the quantitative results and the lessons I've learned.</p>
+            <p>Below is every (software) project I've ever worked on.</p>
 
-            <p>Evidently, I've done a lot of things that I now look back on as <b>dumb</b>: stuff 
-            that provides no value to me or other people, stuff that I didn't learned absolutely nothing from, etc.</p>
+            <p>Evidently, I've done a lot of things that I now look back on as dumb: stuff 
+            that provides no value to me or other people, stuff that I learned absolutely nothing from, etc.</p>
 
             <p>If a "results" or "lessons learned" cell is empty, that means it had no quantitative results 
                 (likely due to not launching or having users) or I learned nothing from the experience of building the damn thing.</p>
@@ -20,14 +20,14 @@ export default function Projects(props) {
 
             <p>In my experience, it's very possible to learn 10x more and see 10x results from a week-long project vs a year-long project.</p>
 
-            <p>That being said, I do think that time might have an magnifying effect on lessons learned (if any), mainly because I've felt
+            <p>That being said, I do think that time might have an magnifying effect on the lessons I've learned (if any), mainly because I've felt
                 like more time has been wasted, and so the burn stings a bit more.</p>
 
-            <p>This has also been increasingly evident to me during my internships, the simple idea that hard work != results.</p>
+            <p>This simple idea that "hard" work / long hours != results has also been increasingly evident to me during my internships.</p>
 
             <p>But of course there are nuances to this...</p>
             
-            <table>
+            <table className="ProjectsTable">
                 <tbody>
                     <tr>
                         <th>Project</th>
@@ -35,9 +35,9 @@ export default function Projects(props) {
                         <th>Org</th>
                         <th>Summary</th>
                         <th>Date</th>
-                        <th>Dev Time</th>
+                        <th>Dev time</th>
                         <th>Status</th>
-                        <th>Results</th>
+                        <th>Quantitative results</th>
                         <th>Lessons learned</th>
                     </tr>
 

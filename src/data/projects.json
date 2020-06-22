@@ -8,9 +8,22 @@
     "link_display": "whattime.today",
     "status": "Launched",
     "dev_time": "1 week",
-    "lessons": "Solve problems first, deploy and get your solution in front of people asap. Solving your own problems is a cheat code. Keep dev cycles as short as humanly possible.",
+    "lessons": "Deploy and get your solution in front of people asap. Solving your own problems is almost cheating. Keep dev cycles as short as humanly possible.",
     "organization": "",
     "results": "HN front page, 6000+ visits in first day, ~60 monthly visits, ~80 Google Calendar users."
+  },
+  {
+    "name": "DynaML",
+    "date": "Sep '19",
+    "image": "as",
+    "description": "Research toolkit to simulate graphs.",
+    "link": "https://github.com/hmcreamer/hackRice19",
+    "link_display": "github",
+    "status": "Left on github",
+    "dev_time": "2 days",
+    "lessons": "Again, hackathons are still full of BS.",
+    "organization": "HackRice 8",
+    "results": "4th place at HackRice. 1st place for Facebook Algorithmic Complexity Challenge."
   },
   {
     "name": "FTWL Website",
@@ -85,7 +98,7 @@
     "results": "Able to attend the Capital One Engineering Summit.",
     "link_display": "heroku",
     "status": "Launched",
-    "lessons": "Use pandas.",
+    "lessons": "Use pandas. If many people use something, it's likely for a reason.",
     "organization": "Capital One",
     "dev_time": "2 weeks",
     "link": "https://capital-one-bikes-jonathancai.herokuapp.com/"
