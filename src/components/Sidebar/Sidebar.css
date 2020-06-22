@@ -1,0 +1,6 @@
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 30px;
+}
