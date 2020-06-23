@@ -1,5 +1,18 @@
 [
   {
+    "name": "Desk Tour",
+    "date": "Jun '20",
+    "image": "as",
+    "description": "Platform to share your desk and the products you use on it.",
+    "link": "http://mydesktour.com/",
+    "link_display": "mydesktour.com",
+    "status": "Abandoned",
+    "dev_time": "1 week",
+    "lessons": "You gotta really be interested in whatever you work on. Otherwise, you will not care enough to work on it when things get inevitably hard.",
+    "organization": "",
+    "results": ""
+  },
+  {
     "name": "What time today?",
     "date": "May '20",
     "image": "as",
