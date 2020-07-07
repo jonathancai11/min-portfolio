@@ -15,7 +15,6 @@
   {
     "name": "What time today?",
     "date": "May '20",
-    "image": "as",
     "description": "Tool to summarize your time availability in seconds.",
     "link": "https://whattime.today/",
     "link_display": "whattime.today",
@@ -26,9 +25,20 @@
     "results": "HN front page, 6000+ visits in first day, ~60 monthly visits, ~80 Google Calendar users."
   },
   {
+    "name": "Artificial Art",
+    "date": "Dec '19",
+    "description": "GAN image synthesis for landscape art.",
+    "link": "https://github.com/jonathancai11/artificial-art",
+    "link_display": "github",
+    "status": "Left on github",
+    "dev_time": "2 weeks",
+    "lessons": "Research is a whole different beast. To get SOTA, first replicate results. ML is even more frustrating than I previously experienced.",
+    "organization": "HackRice 8",
+    "results": "A good grade in the class, and some crappy images."
+  }
+  {
     "name": "DynaML",
     "date": "Sep '19",
-    "image": "as",
     "description": "Research toolkit to simulate graphs.",
     "link": "https://github.com/hmcreamer/hackRice19",
     "link_display": "github",
@@ -41,7 +51,6 @@
   {
     "name": "FTWL Website",
     "date": "Aug '19",
-    "image": "as",
     "description": "Website for a Houston non-profit, Friends of Texas Wildlife.",
     "link": "https://ftwl2019.herokuapp.com/",
     "link_display": "heroku",
