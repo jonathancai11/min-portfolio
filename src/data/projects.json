@@ -1,5 +1,19 @@
 [
   {
+    "name": "Match",
+    "date": "Jul '20",
+    "image": "as",
+    "description": "Match-making between two datasets.",
+    "link": "https://match.riceapps.org/",
+    "link_display": "match.riceapps.org",
+    "status": "WIP",
+    "stack": "React, Recoil, Google OAuth, GCP, Google Sheets API",
+    "dev_time": "2 weeks",
+    "lessons": "TBD",
+    "organization": "Rice CCD & HTX Covidsitters",
+    "results": "TBD"
+  },
+  {
     "name": "Desk Tour",
     "date": "Jun '20",
     "image": "as",
@@ -61,7 +75,7 @@
     "status": "Abandoned",
     "dev_time": "1 year",
     "stack": "React, HTML/CSS, Contentful API",
-    "lessons": "Again, keep feedback loops tight - crazy how much this can make/break a project.",
+    "lessons": "Again, keep feedback loops tight - crazy how much this can make/break a project. Surprising how difficult leadership in a software dev setting is.",
     "organization": "RiceApps",
     "results": ""
   },
