@@ -7,6 +7,7 @@
     "link": "http://mydesktour.com/",
     "link_display": "mydesktour.com",
     "status": "Abandoned",
+    "stack": "React/redux, Express, GraphQL, MongoDB, Google Cloud Build, Cloudinary API, Rainforest API",
     "dev_time": "1 week",
     "lessons": "You gotta really be interested in whatever you work on. Otherwise, you will not care enough to work on it when things get inevitably hard. At the end of the day, I didn't care enough about finding the best desk products to continue development... Might revisit this in due time.",
     "organization": "",
@@ -20,7 +21,7 @@
     "link_display": "whattime.today",
     "status": "Launched",
     "dev_time": "1 week",
-    "tools": "React/redux, Google Calendar API",
+    "stack": "React/redux, Google Calendar API, Google Cloud Build",
     "lessons": "Deploy and get your solution in front of people asap. Solving your own problems is almost cheating. Keep dev cycles as short as humanly possible.",
     "organization": "",
     "results": "HN front page, 6000+ visits in first day, ~60 monthly visits, ~80 Google Calendar users."
@@ -33,6 +34,7 @@
     "link_display": "github",
     "status": "Left on github",
     "dev_time": "2 weeks",
+    "stack": "Google Colab, Keras, Tensorflow, Matplotlib",
     "lessons": "Research is a whole different beast. To get SOTA, first replicate results. ML is even more frustrating than I previously experienced.",
     "organization": "Rice CS",
     "results": "A good grade in the class, and some crappy images."
@@ -45,7 +47,7 @@
     "link_display": "github",
     "status": "Left on github",
     "dev_time": "2 days",
-    "tools": "Python, Tensorflow",
+    "stack": "Python, Tensorflow",
     "lessons": "Again, hackathons are still full of BS.",
     "organization": "HackRice 8",
     "results": "4th place at HackRice. 1st place for Facebook Algorithmic Complexity Challenge."
@@ -58,7 +60,7 @@
     "link_display": "heroku",
     "status": "Abandoned",
     "dev_time": "1 year",
-    "tools": "React, HTML/CSS, Contentful API",
+    "stack": "React, HTML/CSS, Contentful API",
     "lessons": "Again, keep feedback loops tight - crazy how much this can make/break a project.",
     "organization": "RiceApps",
     "results": ""
@@ -72,6 +74,7 @@
     "results": "",
     "status": "Left on github",
     "lessons": "It's exhausting to build stuff that isn't useful.",
+    "stack": "Python, Jupyter Notebook, Tensorflow, Keras, Pandas, NLTK, GCP",
     "organization": "",
     "dev_time": "1 month",
     "link": "https://github.com/jonathancai11/news-sentiment"
@@ -85,6 +88,7 @@
     "results": "1st place at the Capital One Software Engineering Summit",
     "status": "Abandoned",
     "lessons": "Hackathons are full of BS.",
+    "stack": "Python (Flask), Swift",
     "organization": "Capital One",
     "dev_time": "2 days",
     "link": "https://github.com/jonathancai11/rackr"
@@ -98,6 +102,7 @@
     "status": "Abandoned, now being repurposed",
     "link_display": "github",
     "dev_time": "1 year",
+    "stack": "React Native, MongoDB, GraphQL",
     "organization": "RiceApps",
     "lessons": "Keep feedback loops tight.",
     "results": ""
@@ -111,6 +116,7 @@
     "status": "Abandoned",
     "results": "",
     "lessons": "",
+    "stack": "Javascript, HTML/CSS",
     "organization": "JPMorgan Chase",
     "dev_time": "2 days",
     "link": "https://careers.jpmorgan.com/us/en/students/programs/code-for-good"
@@ -124,6 +130,7 @@
     "link_display": "heroku",
     "status": "Launched",
     "lessons": "Use pandas. If many people use something, it's likely for a reason.",
+    "stack": "Javascript (React), HTML/CSS",
     "organization": "Capital One",
     "dev_time": "2 weeks",
     "link": "https://capital-one-bikes-jonathancai.herokuapp.com/"
@@ -137,6 +144,7 @@
     "status": "Launched",
     "link_display": "heroku",
     "dev_time": "2 days",
+    "stack": "Javascript, Python (BeautifulSoup)",
     "organization": "AT&T",
     "lessons": "It's possible to win hackathons.",
     "link": "http://news-visualize.herokuapp.com/"
@@ -149,6 +157,7 @@
     "results": "~100 users.",
     "link_display": "chrome store",
     "status": "Launched",
+    "stack": "Javascript, HTML/CSS",
     "dev_time": "3 weeks",
     "lessons": "Working with friends is fun.",
     "link": "https://chrome.google.com/webstore/detail/hangman/dgicdiobkdfpalmbbdcmmjhmnpaicnkh?hl=en&"
@@ -161,6 +170,7 @@
     "results": "",
     "link_display": "devpost",
     "status": "Abandoned",
+    "stack": "Javascript, HTML/CSS",
     "dev_time": "2 days",
     "organization": "HackRice 7.5",
     "lessons": "",
