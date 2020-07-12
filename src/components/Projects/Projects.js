@@ -37,6 +37,7 @@ export default function Projects(props) {
                         <th>Date</th>
                         <th>Dev time</th>
                         <th>Status</th>
+                        <th>Tools</th>
                         <th>Quantitative results</th>
                         <th>Lessons learned</th>
                     </tr>
@@ -51,6 +52,7 @@ export default function Projects(props) {
                             <td>{project.date}</td>
                             <td>{project.dev_time}</td>
                             <td>{project.status}</td>
+                            <td>{project.tools}</td>
                             <td>{project.results}</td>
                             <td>{project.lessons}</td>
                         </tr>);

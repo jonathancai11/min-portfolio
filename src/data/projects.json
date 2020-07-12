@@ -8,6 +8,7 @@
     "link_display": "whattime.today",
     "status": "Launched",
     "dev_time": "1 week",
+    "tools": "React/redux, Google Calendar API",
     "lessons": "Deploy and get your solution in front of people asap. Solving your own problems is almost cheating. Keep dev cycles as short as humanly possible.",
     "organization": "",
     "results": "HN front page, 6000+ visits in first day, ~60 monthly visits, ~80 Google Calendar users."
@@ -21,6 +22,7 @@
     "link_display": "github",
     "status": "Left on github",
     "dev_time": "2 days",
+    "tools": "Python, Tensorflow",
     "lessons": "Again, hackathons are still full of BS.",
     "organization": "HackRice 8",
     "results": "4th place at HackRice. 1st place for Facebook Algorithmic Complexity Challenge."
@@ -34,6 +36,7 @@
     "link_display": "heroku",
     "status": "Abandoned",
     "dev_time": "1 year",
+    "tools": "React, HTML/CSS, Contentful API",
     "lessons": "Again, keep feedback loops tight - crazy how much this can make/break a project.",
     "organization": "RiceApps",
     "results": ""
