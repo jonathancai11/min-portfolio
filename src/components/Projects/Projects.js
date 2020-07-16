@@ -32,7 +32,7 @@ export default function Projects(props) {
                     <tr>
                         <th>Project</th>
                         <th>Summary</th>
-                        <th>Date started / dev time</th>
+                        <th>Time</th>
                         {/* <th>Dev time</th> */}
                         <th>Status</th>
                         <th>Stack</th>
