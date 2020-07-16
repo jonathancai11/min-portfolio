@@ -12,7 +12,7 @@ export default function Projects(props) {
             <p>Evidently, I've done a lot of things that I now look back on as dumb: stuff
             that provides no value to me or other people, stuff that I learned absolutely nothing from, etc.</p>
 
-            <p>If a "results" or "lessons learned" cell is empty, that means it had no quantitative results
+            <p>If a "results" or "lessons" cell is empty, that means it had no quantitative results
                 (likely due to not launching or having users) or I learned nothing from the experience of building the damn thing.</p>
 
             <p>Interestingly, there's not much correlation between dev time (time spent on development)
@@ -36,8 +36,8 @@ export default function Projects(props) {
                         {/* <th>Dev time</th> */}
                         <th>Status</th>
                         <th>Stack</th>
-                        <th>Quantitative results</th>
-                        <th>Lessons learned</th>
+                        <th>Results</th>
+                        <th>Lessons</th>
                     </tr>
 
                     {projectData.map((project, i) => {
