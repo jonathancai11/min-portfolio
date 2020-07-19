@@ -20,10 +20,10 @@
     "description": "Platform to share your desk and the products you use on it.",
     "link": "http://mydesktour.com/",
     "link_display": "mydesktour.com",
-    "status": "Abandoned",
+    "status": "WIP, on and off?",
     "stack": "React/redux, Express, GraphQL, MongoDB, Google Cloud Build, Cloudinary API, Rainforest API",
-    "dev_time": "1 week",
-    "lessons": "You gotta really be interested in whatever you work on. Otherwise, you will not care enough to work on it when things get inevitably hard. At the end of the day, I didn't care enough about finding the best desk products to continue development... Might revisit this in due time.",
+    "dev_time": "~2 weeks",
+    "lessons": "You gotta really give a shit about whatever you work on (especially when a salary is not on the line). Otherwise, you will not care enough to work on it when things get inevitably hard.",
     "organization": "",
     "results": ""
   },
