@@ -20,12 +20,12 @@
     "description": "Platform to share your desk and the products you use on it.",
     "link": "http://mydesktour.com/",
     "link_display": "mydesktour.com",
-    "status": "WIP, on and off?",
+    "status": "Beta-launch.",
     "stack": "React/redux, Express, GraphQL, MongoDB, Google Cloud Build, Cloudinary API, Rainforest API",
     "dev_time": "2 weeks",
-    "lessons": "You gotta really give a shit about whatever you work on (especially when a salary is not on the line). Otherwise, you will not care enough to work on it when things get inevitably hard.",
+    "lessons": "You gotta really give a sh*t about whatever you work on (especially when a salary is not on the line). Otherwise, you will not care enough to work on it when things get inevitably hard.",
     "organization": "",
-    "results": ""
+    "results": "~8k visits after launch, 10 posts of UGC"
   },
   {
     "name": "What time today?",
@@ -38,7 +38,7 @@
     "stack": "React/redux, Google Calendar API, Google Cloud Build",
     "lessons": "Deploy and get your solution in front of people asap. Solving your own problems is almost cheating. Keep dev cycles as short as humanly possible.",
     "organization": "",
-    "results": "HN front page, 6000+ visits in first day, ~60 monthly visits, ~80 Google Calendar users."
+    "results": "6k+ visits after launch, ~60 monthly visits, ~80 Google Calendar users."
   },
   {
     "name": "Artificial Art",
