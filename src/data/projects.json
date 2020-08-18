@@ -20,12 +20,26 @@
     "description": "Platform to share your desk and the products you use on it.",
     "link": "http://mydesktour.com/",
     "link_display": "mydesktour.com",
-    "status": "Beta-launch.",
+    "status": "Beta-launch",
     "stack": "React/redux, Express, GraphQL, MongoDB, Google Cloud Build, Cloudinary API, Rainforest API",
     "dev_time": "2 weeks",
     "lessons": "You gotta really give a sh*t about whatever you work on (especially when a salary is not on the line). Otherwise, you will not care enough to work on it when things get inevitably hard.",
     "organization": "",
     "results": "~8k visits after launch, 10 posts of UGC, 40+ users registered"
+  },
+  {
+    "name": "Personal Website",
+    "date": "Jun '20",
+    "image": "as",
+    "description": "What you're looking at right now.",
+    "link": "https://jonathancai.com/",
+    "link_display": "jonathancai.com",
+    "status": "Launched",
+    "stack": "React/Node",
+    "dev_time": "1 week",
+    "lessons": "I'm a simple man.",
+    "organization": "",
+    "results": ""
   },
   {
     "name": "What time today?",
