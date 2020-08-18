@@ -5,7 +5,7 @@ export default function Work(props) {
     return (
         <div>
             <p>
-                I've been working as a software engineer (internships so far) - previously facebook, jpmorgan chase, sihua technologies (small startup in cupertino).
+                I've been working as a software engineer (3 internships so far) at facebook, jpmorgan chase, sihua technologies (small startup in cupertino).
             </p>
 
             <p>
