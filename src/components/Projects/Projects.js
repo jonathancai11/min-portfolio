@@ -6,7 +6,7 @@ import projectData from '../../data/projects.json';
 export default function Projects(props) {
 
     return (
-        <div style={{fontSize: 16}}>
+        <div className="Projects">
             <p>Below is every (software) project I've ever worked on.</p>
 
             <p>Evidently, I've done a lot of things that I now look back on as dumb: stuff
