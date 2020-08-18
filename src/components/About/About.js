@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../files/simple_resume.pdf';
+import pdf from '../../files/jonathan_cai_resume.pdf';
 import pic from '../../files/me.jpg'
 import './About.css'
 

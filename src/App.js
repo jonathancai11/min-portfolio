@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
-import Write from './components/Write/Write';
 import Projects from './components/Projects/Projects';
 import Read from './components/Read/Read';
 import About from './components/About/About';
@@ -21,7 +20,6 @@ function App() {
               <Route exact path="/about" component={About}/>
               <Route exact path="/work" component={Work}/>
               <Route exact path="/projects" component={Projects}/>
-              <Route exact path="/write" component={Write}/>
               <Route exact path="/contact" component={Contact}/>
               {/* <Route exact path="/write/:post" component={Write}/> */}
               <Route exact path="/read" component={Read}/>

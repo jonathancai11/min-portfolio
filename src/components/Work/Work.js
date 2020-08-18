@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../files/simple_resume.pdf';
+import pdf from '../../files/jonathan_cai_resume.pdf';
 
 export default function Work(props) {
     return (
@@ -16,7 +16,7 @@ export default function Work(props) {
 
             <p>
                 At Jpmorgan, I worked on data engineering/modeling at scale. <br/>
-                12,000+ data points with 40+ properties on an hourly basis. <br/>
+                This looked like 12,000+ data points with 40+ properties on an hourly basis. <br/>
                 Dealt with constantly changing business requirements from investment bankers, varying data processing issues (asynchronous fetching on dynamic time cycles), etc.
             </p>
 
