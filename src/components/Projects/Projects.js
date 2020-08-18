@@ -33,7 +33,6 @@ export default function Projects(props) {
                         <th>Project</th>
                         <th>Summary</th>
                         <th>Time</th>
-                        {/* <th>Dev time</th> */}
                         <th>Status</th>
                         <th>Stack</th>
                         <th>Results</th>
