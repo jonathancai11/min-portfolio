@@ -8,7 +8,7 @@ export default function Sidebar() {
     <div className="Sidebar">
         <p>Jonathan Cai</p>
         <Link to="/about">about</Link>
-        <Link to="/write">write</Link>
+        <a href="http://blog.jonathancai.com/">write</a>
         <Link to="/read">read</Link>
         <Link to="/work">work</Link>
         <Link to="/projects">projects</Link>
