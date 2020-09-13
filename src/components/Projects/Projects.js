@@ -15,15 +15,14 @@ export default function Projects(props) {
             <p>If a "results" or "lessons" cell is empty, that means it had no quantitative results
                 (likely due to not launching or having users) or I learned nothing from the experience of building the damn thing.</p>
 
-            <p>Interestingly, there's not much correlation between dev time (time spent on development)
-                 and the results or lessons learned.</p>
+            <p>Interestingly, there's <b>not much correlation between development time and the results or lessons learned.</b></p>
 
             <p>In my experience, it's very possible to learn 10x more and see 10x results from a week-long project vs a year-long project.</p>
 
             <p>That being said, I do think that time might have an magnifying effect on the lessons I've learned (if any), mainly because I've felt
                 like more time has been wasted, and so the burn stings a bit more.</p>
 
-            <p>This simple idea that "hard" work / long hours != results has also been increasingly evident to me during my internships.</p>
+            <p>This simple idea that <b>"hard" work {'&'} long hours != results</b> has also been increasingly evident to me during my internships.</p>
 
             <p>But of course there are nuances to this...</p>
 
