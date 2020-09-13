@@ -1,18 +1,16 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import './Sidebar.css';
 
 export default function Sidebar() {
 
     return (
-    <div className="Sidebar">
-        <p>Jonathan Cai</p>
-        <Link to="/about">about</Link>
+    <div className="sidebar">
+        <a href="/#about">about</a>
+        <a href="/#contact">contact</a>
+        <a href="/#work">work</a>
+        <a href="/#read">read</a>
+        <a href="/#projects">projects</a>
         <a href="http://blog.jonathancai.com/blog/">blog</a>
-        <Link to="/read">read</Link>
-        <Link to="/work">work</Link>
-        <Link to="/projects">projects</Link>
-        <Link to="/contact">contact</Link>
     </div>
     )
 }

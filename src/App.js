@@ -11,24 +11,28 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router>
-
+      <Sidebar />
       <div className="Body">
-      <Sidebar/>
-        <div className="Content">
-          <Switch>
-              <Route exact path="/about" component={About}/>
-              <Route exact path="/work" component={Work}/>
-              <Route exact path="/projects" component={Projects}/>
-              <Route exact path="/contact" component={Contact}/>
-              {/* <Route exact path="/write/:post" component={Write}/> */}
-              <Route exact path="/read" component={Read}/>
-              <Route path="/"/>
-          </Switch>
-        </div>
-      </div>
+          <section id="about">
+            <About />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
+          <section id="work">
+            <Work />
+          </section>
+          <section id="read">
+            <Read />
+          </section>
+          <section id="projects">
+            <Projects />
+          </section>
 
-      </Router>
+          <p style={{textAlign: "center"}}>
+            <i>Website last updated 8/17/20</i>
+          </p>
+      </div>
     </div>
   );
 }

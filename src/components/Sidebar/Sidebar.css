@@ -1,12 +1,15 @@
-.Sidebar {
+.sidebar {
     display: flex;
+    position: fixed;
     flex-direction: column;
     width: 150px;
-    margin: 40px;
+    top: 10%;
+    left: 5%;
 }
 
 @media only screen and (max-width: 600px) {
-    .Sidebar {
+    .sidebar {
+        display: none;
         margin: 0px;
     }
 }

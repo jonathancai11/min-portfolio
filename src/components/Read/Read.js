@@ -4,10 +4,12 @@ import read from '../../data/read.json';
 export default function Read(props) {
 
     return (
-        <div>
-            <p>I'm a fan of <a target="_blank" rel="noopener noreferrer" href="https://patrickcollison.com/bookshelf">
-                Patrick Collison's bookshelf</a> and what he cites as <a href="https://books.google.com/books?id=_ntDTaMUys8C&lpg=PT115&ots=E3jhWnG6aB&pg=PT124#v=onepage&q&f=false">"Umberto Eco theory of the library"</a>
-                , so I'm gonna try to maintain a list of pieces I think I'd like to read at some point.</p>
+        <div className="section-content">
+            <p>I'm going to try to maintain a list of <b>books I'd like to read at some point </b>
+                (inspired by <a target="_blank" rel="noopener noreferrer" href="https://patrickcollison.com/bookshelf">
+                Patrick Collison's bookshelf</a> and what he cites as 
+                <a href="https://books.google.com/books?id=_ntDTaMUys8C&lpg=PT115&ots=E3jhWnG6aB&pg=PT124#v=onepage&q&f=false">"Umberto Eco theory of the library"</a>.
+                </p>
 
             {read.toread.map((x, i) => <li key={i}>{x}</li>)}
 

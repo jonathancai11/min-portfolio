@@ -6,8 +6,8 @@ import projectData from '../../data/projects.json';
 export default function Projects(props) {
 
     return (
-        <div className="Projects">
-            <p>Below is every (software) project I've ever worked on.</p>
+        <div className="section-content">
+            <p>Below is <b>every (software) project I've ever worked on</b>.</p>
 
             <p>Evidently, I've done a lot of things that I now look back on as dumb: stuff
             that provides no value to me or other people, stuff that I learned absolutely nothing from, etc.</p>

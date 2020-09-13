@@ -8,9 +8,23 @@
     "link_display": "match.riceapps.org",
     "status": "WIP",
     "stack": "React, Recoil, Google OAuth, GCP, Google Sheets API",
-    "dev_time": "3 weeks",
-    "lessons": "TBD",
+    "dev_time": "WIP",
+    "lessons": "WIP",
     "organization": "Rice CCD & HTX Covidsitters",
+    "results": "WIP"
+  },
+  {
+    "name": "Hacker Promos",
+    "date": "Sept '20",
+    "image": "as",
+    "description": "Promo deals for the hacker community.",
+    "link": "https://www.hackerpromos.com/",
+    "link_display": "hackerpromos.com",
+    "status": "WIP",
+    "stack": "Pory.io, Airtable",
+    "dev_time": "8 hrs",
+    "lessons": "This project has made me hop on the #nocode bandwagon. Perfect for validating an idea. I need to stop diving right into building, and validate ideas first.",
+    "organization": "",
     "results": "TBD"
   },
   {
