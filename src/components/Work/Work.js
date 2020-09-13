@@ -14,13 +14,14 @@ export default function Work(props) {
             </p>
 
             <p>
-                At <b>JPMorgan</b>, I worked on data modeling, and <b>data engineering at scale</b>. <br/>
+                At <b>JPMorgan</b>, I worked on <b>data modeling</b>, and <b>data engineering at scale</b>. <br/>
                 This looked like 12,000+ data points with 40+ properties on an hourly basis. <br/>
                 Dealt with constantly changing business requirements from investment bankers, varying data processing issues (asynchronous fetching on dynamic time cycles), etc.
             </p>
 
             <p>
-                At <b>Sihua</b>, I improved the deployment time for their <b>CI/CD</b> pipeline by 70%, but the tool was completely unmanagable, the code was absolute crap, and not used in production. 
+                At <b><a href="https://www.sihuatech.com/" target="_blank">Sihua Technologies</a></b>, 
+                I improved the deployment time for their <b>CI/CD</b> pipeline by 70%, but the tool was completely unmanagable, the code was absolute crap, and not used in production. 
             </p>
 
             <p>

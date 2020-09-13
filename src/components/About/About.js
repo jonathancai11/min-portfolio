@@ -8,8 +8,8 @@ export default function About(props) {
         <div className="section-content">
             <img src={pic} className="Picture"/>
             <div>
-                <p>Hi, I'm Jonathan! 👋</p> 
-                <p>I currently study <b>computer science</b> at <b>Rice University</b>, expected to graduate in Spring 2021.</p>
+                <p>Hi, I'm <b>Jonathan</b>! 👋</p> 
+                <p>I study <b>computer science</b> at <b>Rice University</b>, graduating in Spring 2021.</p>
                 <p>If you're a recruiter, or just interested in that kind of thing, here's <b><a target="_blank" rel="noopener noreferrer" href={pdf}>my resume</a></b>
                 &nbsp; (no guarantees on how up to date it is).</p>
             </div>

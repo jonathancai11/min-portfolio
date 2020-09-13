@@ -12,8 +12,8 @@ export default function Projects(props) {
             <p>Evidently, I've done a lot of things that I now look back on as dumb: stuff
             that provides no value to me or other people, stuff that I learned absolutely nothing from, etc.</p>
 
-            <p>If a "results" or "lessons" cell is empty, that means it had no quantitative results
-                (likely due to not launching or having users) or I learned nothing from the experience of building the damn thing.</p>
+            <p>If "results" or "lessons" is empty, that means it had no quantitative results
+                (likely due to not launching or having users) or I learned nothing from the experience of building the damn thing!</p>
 
             <p>Interestingly, there's <b>not much correlation between development time and the results or lessons learned.</b></p>
 
@@ -26,7 +26,36 @@ export default function Projects(props) {
 
             <p>But of course there are nuances to this...</p>
 
-            <table className="ProjectsTable">
+            {projectData.map((project, i) => {
+                return (
+                    <div>
+                        <div key={i} className="single-project">
+                            <div className="single-project-header">
+                                {project.icon ?
+                                    <a className="no-highlight" target="_blank" rel="noopener noreferrer" href={project.link}>
+                                        <img src={project.icon} height="50" style={{ borderRadius: 7, maxWidth: "100%" }} />
+                                    </a> : <br />
+                                }
+                                <div>
+                                    <h3>{project.name} </h3> {project.organization && <h5>{"for " + project.organization}</h5>}
+                                    <p><a target="_blank" rel="noopener noreferrer" href={project.link}>{project.link_display}</a> </p>
+                                </div>
+                                <p>{project.date}</p>
+                                <p>{project.dev_time}</p>
+                            </div>
+                            <div className="single-project-body">
+                                <p>{project.description}</p>
+                                <p>{project.stack}</p>
+                                <p><b className="no-highlight">Status:</b> {project.status}</p>
+                                <p><b className="no-highlight">Results:</b> {project.results}</p>
+                                <p><b className="no-highlight">Lessons:</b> {project.lessons}</p>
+                            </div>
+                        </div>
+                        <hr />
+                    </div>);
+            })}
+
+            {/* <table className="ProjectsTable">
                 <tbody>
                     <tr>
                         <th>Project</th>
@@ -60,7 +89,7 @@ export default function Projects(props) {
                             </tr>);
                     })}
                 </tbody>
-            </table>
+            </table> */}
 
         </div>
     )
