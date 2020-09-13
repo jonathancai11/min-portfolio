@@ -45,7 +45,8 @@ function App() {
         <section id="work" style={{ backgroundColor: seletedPalette[2] }}>
           <Work />
         </section>
-        <section id="projects" style={{ backgroundColor: seletedPalette[3] }}>
+        {/* <section id="projects" style={{ backgroundColor: seletedPalette[3] }}> */}
+        <section id="projects">
           <Projects />
         </section>
         <section id="read" style={{ backgroundColor: seletedPalette[4] }}>

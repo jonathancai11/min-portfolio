@@ -11,6 +11,16 @@ th {
   font-size: 12px;
 }
 
+.tag {
+  white-space:nowrap;
+  color: white;
+  margin: 2px;
+  padding: 2px;
+  margin-bottom: 10px;
+  font-size: small;
+  border-radius: 5px;
+}
+
 .single-project {
   width: 100%;
   display: flex;
@@ -43,6 +53,7 @@ th {
 hr {
   border: 1px solid gray
 }
+
 
 @media only screen and (max-width: 600px) {
 

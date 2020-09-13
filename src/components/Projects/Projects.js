@@ -3,7 +3,68 @@ import './Projects.css';
 import projectData from '../../data/projects.json';
 
 
+const customColors = {
+    featured: "#559977",
+}
+
+// https://stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
+function shadeColor(color, percent) {
+
+    var R = parseInt(color.substring(1, 3), 16);
+    var G = parseInt(color.substring(3, 5), 16);
+    var B = parseInt(color.substring(5, 7), 16);
+
+    R = parseInt(R * (100 + percent) / 100);
+    G = parseInt(G * (100 + percent) / 100);
+    B = parseInt(B * (100 + percent) / 100);
+
+    R = (R < 255) ? R : 255;
+    G = (G < 255) ? G : 255;
+    B = (B < 255) ? B : 255;
+
+    var RR = ((R.toString(16).length == 1) ? "0" + R.toString(16) : R.toString(16));
+    var GG = ((G.toString(16).length == 1) ? "0" + G.toString(16) : G.toString(16));
+    var BB = ((B.toString(16).length == 1) ? "0" + B.toString(16) : B.toString(16));
+
+    return "#" + RR + GG + BB;
+}
+
+// https://stackoverflow.com/questions/3426404/create-a-hexadecimal-colour-based-on-a-string-with-javascript
+var stringToColour = function (str) {
+    var hash = 0;
+    for (var i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    var colour = '#';
+    for (i = 0; i < 3; i++) {
+        var value = (hash >> (i * 8)) & 0xFF;
+        colour += ('00' + value.toString(16)).substr(-2);
+    }
+    return colour;
+}
+
+function getColor(tag) {
+    return customColors[tag] || stringToColour(tag);
+}
+
+function Tag({ tool, count }) {
+    return <span className="tag"
+        style={{
+            backgroundColor: shadeColor(getColor(tool), -10),
+        }}>{count ? count.toString() + " - " + tool : tool}</span>
+}
+
 export default function Projects(props) {
+
+    let tools = projectData.flatMap((project) => project.stack.split(", "));
+    var toolCounts = {};
+
+    for (var i = 0; i < tools.length; i++) {
+        var num = tools[i];
+        toolCounts[num] = toolCounts[num] ? toolCounts[num] + 1 : 1;
+    }
+
+    console.log(toolCounts);
 
     return (
         <div className="section-content">
@@ -22,10 +83,14 @@ export default function Projects(props) {
             <p>That being said, I do think that time might have an magnifying effect on the lessons I've learned (if any), mainly because I've felt
                 like more time has been wasted, and so the burn stings a bit more.</p>
 
-            <p>This simple idea that <b>"hard" work {'&'} long hours != results</b> has also been increasingly evident to me during my internships.</p>
 
-            <p>But of course there are nuances to this...</p>
+            <p>Here is a <b>list of all the tools/languages/frameworks used by frequency</b>:</p>
+            <div style={{overflowWrap: "break-word"}}>
+                {Object.entries(toolCounts).sort((a, b) => b[1] - a[1]).map((tool, i) => <Tag count={tool[1]} key={i} tool={tool[0]} />)}
+            </div>
 
+
+            <hr />
             {projectData.map((project, i) => {
                 return (
                     <div>
@@ -45,7 +110,12 @@ export default function Projects(props) {
                             </div>
                             <div className="single-project-body">
                                 <p>{project.description}</p>
-                                <p>{project.stack}</p>
+                                <div style={{overflowWrap: "break-word"}}>
+                                {/* <div style={{whiteSpace: "pre-wrap"}}> */}
+                                    {project.stack.split(", ").map((tool, i) => {
+                                        return <Tag key={i} tool={tool} />
+                                    })}
+                                </div>
                                 <p><b className="no-highlight">Status:</b> {project.status}</p>
                                 <p><b className="no-highlight">Results:</b> {project.results}</p>
                                 <p><b className="no-highlight">Lessons:</b> {project.lessons}</p>
@@ -54,43 +124,6 @@ export default function Projects(props) {
                         <hr />
                     </div>);
             })}
-
-            {/* <table className="ProjectsTable">
-                <tbody>
-                    <tr>
-                        <th>Project</th>
-                        <th>Summary</th>
-                        <th>Time</th>
-                        <th>Status</th>
-                        <th>Stack</th>
-                        <th>Results</th>
-                        <th>Lessons</th>
-                    </tr>
-
-                    {projectData.map((project, i) => {
-                        return (
-                            <tr key={i}>
-                                <td>
-                                    {project.name} <br />
-                                    <a target="_blank" rel="noopener noreferrer" href={project.link}>{project.link_display}</a> <br />
-                                    {
-                                        project.organization ? "for " + project.organization : ""
-                                    }
-                                </td>
-                                <td>{project.description}</td>
-                                <td>
-                                    {project.date + "/"} <br />
-                                    {project.dev_time}
-                                </td>
-                                <td>{project.status}</td>
-                                <td>{project.stack}</td>
-                                <td>{project.results}</td>
-                                <td>{project.lessons}</td>
-                            </tr>);
-                    })}
-                </tbody>
-            </table> */}
-
         </div>
     )
 }
