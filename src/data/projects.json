@@ -2,7 +2,8 @@
   {
     "name": "Match",
     "date": "Jul '20",
-    "image": "as",
+    "icon": "https://imgur.com/cPBXCmv",
+    "images": ["https://imgur.com/pZS8ibE", "https://imgur.com/DGk4sFM"],
     "description": "Match-making between two datasets.",
     "link": "https://match.riceapps.org/",
     "link_display": "match.riceapps.org",
@@ -16,7 +17,9 @@
   {
     "name": "Hacker Promos",
     "date": "Sept '20",
-    "image": "as",
+    "icon": "https://imgur.com/TN03pSb",
+    "icon2": "https://imgur.com/XdKPHgG",
+    "images": ["https://imgur.com/5lhnTe5", "https://imgur.com/ES7JT6M"],
     "description": "Promo deals for the hacker community.",
     "link": "https://www.hackerpromos.com/",
     "link_display": "hackerpromos.com",
@@ -30,7 +33,8 @@
   {
     "name": "Desk Tour",
     "date": "Jun '20",
-    "image": "as",
+    "icon": "https://imgur.com/VtfHm3r",
+    "images": ["https://imgur.com/w4Jlo0k", "https://imgur.com/MaKlUjk", "https://imgur.com/qzzbBy2", "https://imgur.com/U08TRot"],
     "description": "Platform to share your desk and the products you use on it.",
     "link": "http://mydesktour.com/",
     "link_display": "mydesktour.com",
@@ -43,8 +47,9 @@
   },
   {
     "name": "Personal Website",
+    "icon": "https://imgur.com/jtgaIef",
+    "images": ["https://imgur.com/jXJdqIY"],
     "date": "Jun '20",
-    "image": "as",
     "description": "What you're looking at right now.",
     "link": "https://jonathancai.com/",
     "link_display": "jonathancai.com",
@@ -58,6 +63,8 @@
   {
     "name": "What time today?",
     "date": "May '20",
+    "icon": "https://imgur.com/LlGbQJk",
+    "images": ["https://imgur.com/l6gtK5v", "https://imgur.com/Ndgxz9B"],
     "description": "Tool to summarize your time availability in seconds.",
     "link": "https://whattime.today/",
     "link_display": "whattime.today",
@@ -71,6 +78,8 @@
   {
     "name": "Artificial Art",
     "date": "Dec '19",
+    "icon": "https://imgur.com/UJvkNPD",
+    "images": ["https://imgur.com/yhzk65b", "https://imgur.com/5YKa1qk", "https://imgur.com/0XHORLa", "https://imgur.com/8MwCoqJ"],
     "description": "GAN image synthesis for landscape art.",
     "link": "https://github.com/jonathancai11/artificial-art",
     "link_display": "github",
@@ -84,6 +93,8 @@
   {
     "name": "DynaML",
     "date": "Sep '19",
+    "icon": "https://imgur.com/gqMbYgr",
+    "images": ["https://imgur.com/3lBTiLq", "https://imgur.com/V7FNwov"],
     "description": "Research toolkit to simulate graphs.",
     "link": "https://github.com/hmcreamer/hackRice19",
     "link_display": "github",
@@ -96,6 +107,8 @@
   },
   {
     "name": "FTWL Website",
+    "icon": "https://imgur.com/fv1oykk",
+    "images": ["https://imgur.com/hMN6eMJ", "https://imgur.com/DwR7WjA", "https://imgur.com/NnbUzsf"],
     "date": "Aug '19",
     "description": "Website for a Houston non-profit, Friends of Texas Wildlife.",
     "link": "https://ftwl2019.herokuapp.com/",
@@ -110,7 +123,7 @@
   {
     "name": "News Sentiment",
     "date": "May '19",
-    "image": "https://drive.google.com/uc?export=view&id=184_X-_hFdZKF5aAclImxzI9TfEmqxWWL",
+    "images": ["https://drive.google.com/uc?export=view&id=184_X-_hFdZKF5aAclImxzI9TfEmqxWWL", "https://imgur.com/esmQUwn", "https://imgur.com/49qcMVy"],
     "description": "An attempt to extract company stock correlated sentiment from news articles.",
     "link_display": "github",
     "results": "",
@@ -124,7 +137,7 @@
   {
     "name": "Rackr",
     "date": "May '19",
-    "image": "https://drive.google.com/uc?export=view&id=1vU0vHPYTLIDMvwokGnoZ1p5qCI_xPUmD",
+    "images": ["https://imgur.com/bdvOU9N", "https://imgur.com/PrJqq6x", "https://imgur.com/qcLmC6K"],
     "description": "A receipt scanning and personal finance tracking iOS app.",
     "link_display": "github",
     "results": "1st place at the Capital One Software Engineering Summit",
@@ -138,7 +151,8 @@
   {
     "name": "Hedwig",
     "date": "Aug '18",
-    "image": "https://drive.google.com/uc?export=view&id=10uNSXoQY-1nKjfTpQzxTrRbdk-PB85dU",
+    "icon": "https://imgur.com/Yr8vk81",
+    "images": ["https://drive.google.com/uc?export=view&id=10uNSXoQY-1nKjfTpQzxTrRbdk-PB85dU", "https://imgur.com/JSgeA0v"],
     "description":"An on-campus food delivery platform for Rice.",
     "link": "https://github.com/rice-apps/RiceDeliveryUserFrontend",
     "status": "Abandoned, now being repurposed",
@@ -152,7 +166,8 @@
   {
     "name": "SER Jobs",
     "date": "Oct '18",
-    "image": "https://drive.google.com/uc?export=view&id=1PAmHAxtmgiw4FoLbZqFN63tCJRdDxOla",
+    "icon": "https://imgur.com/Ahe5lBy",
+    "images": ["https://drive.google.com/uc?export=view&id=1PAmHAxtmgiw4FoLbZqFN63tCJRdDxOla"],
     "description": "Revamp SER Houston's digital application process.",
     "link_display": "program website",
     "status": "Abandoned",
@@ -166,7 +181,7 @@
   {
     "name": "LA Bike-Share Data Analysis",
     "date": "Nov '18",
-    "image": "https://drive.google.com/uc?export=view&id=1nxKzs825Bw9OBx71A-b6uA0y8GYFzNuv",
+    "images": ["https://drive.google.com/uc?export=view&id=1nxKzs825Bw9OBx71A-b6uA0y8GYFzNuv"],
     "description": "Analysis and visualization of LA bike-share data.",
     "results": "Able to attend the Capital One Engineering Summit.",
     "link_display": "heroku",
@@ -180,7 +195,7 @@
   {
     "name": "News Visualization",
     "date": "Jul '18",
-    "image": "https://drive.google.com/uc?export=view&id=1QQuVnjjion_oKsqyLO69D6vGoR76c3xy",
+    "images": ["https://drive.google.com/uc?export=view&id=1QQuVnjjion_oKsqyLO69D6vGoR76c3xy"],
     "description": "A network of political figures mentioned in news articles.",
     "results": "3rd place in AT&T Entertainment hackathon.",
     "status": "Launched",
@@ -194,7 +209,8 @@
   {
     "name": "Hangman / Length Converter",
     "date": "Jun '18",
-    "image": "https://drive.google.com/uc?export=view&id=1wsis6RBv0OVeqQzCSrX5iwiTrT1LQ4ff",
+    "icon": "https://imgur.com/B9gVzE2",
+    "images": ["https://drive.google.com/uc?export=view&id=1wsis6RBv0OVeqQzCSrX5iwiTrT1LQ4ff"],
     "description": "Some dumb Google Chrome extensions.",
     "results": "~100 users.",
     "link_display": "chrome store",
@@ -207,7 +223,8 @@
   {
     "name": "RiceSlang",
     "date": "Mar '18",
-    "image": "https://drive.google.com/uc?export=view&id=1K_p_3OvxoRlfAQ77wNqJmx1-sXaAW61s",
+    "icon": "https://imgur.com/laWeBjn",
+    "images": ["https://drive.google.com/uc?export=view&id=1K_p_3OvxoRlfAQ77wNqJmx1-sXaAW61s"],
     "description": "A Slackbot to explain popular Rice slang terms.",
     "results": "",
     "link_display": "devpost",
