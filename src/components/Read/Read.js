@@ -13,7 +13,7 @@ export default function Read(props) {
 
             {read.toread.map((x, i) => <li key={i}>{x}</li>)}
 
-            <p>Here are some that I've read or reread in recent memory that I could recommend.
+            <p>Here are some that I've <b>read or reread in recent memory</b> that I could recommend.
                 Might also try to include articles in the future if I can bother to.</p>
 
             {read.read.map((x, i) => <li key={i}>{x}</li>)}

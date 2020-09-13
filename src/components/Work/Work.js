@@ -9,9 +9,8 @@ export default function Work(props) {
             </p>
 
             <p>
-                At <b>Facebook</b>, I improved the performance, reliability, and architecture of a service to generate network device configs. <br/>
-                The service handled ~3k requests per hour.
-                Saw ~10% increase in performance, and prevented several SEVs.
+                At <b>Facebook</b>, I worked on their <b>Network Infra team</b>, improving the performance and reliability of a service that generates network device configs. <br/>
+                The service handled ~3k requests/hour. Saw ~10% performance increase, and prevented several SEVs.
             </p>
 
             <p>
@@ -21,7 +20,7 @@ export default function Work(props) {
             </p>
 
             <p>
-                At <b>Sihua</b>, I improved the deployment time for their CI/CD pipeline by 70%, but the tool was completely unmanagable, the code was absolute crap, and not used in production. 
+                At <b>Sihua</b>, I improved the deployment time for their <b>CI/CD</b> pipeline by 70%, but the tool was completely unmanagable, the code was absolute crap, and not used in production. 
             </p>
 
             <p>
