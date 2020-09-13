@@ -3,7 +3,9 @@ html {
 }
 
 section {
-  padding: 40px;
+  padding: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 div.section-content {
@@ -24,15 +26,33 @@ section#work {
 }
 
 section#read {
-  background-color: #ffffff;
+  background-color: #C1DADA;
 }
 
 section#projects {
-  background-color: #C1DADA;
+  background-color: #ffffff;
+}
+
+p, td, li, a {
+  /* line-height: 1.1; */
+  /* font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif; */
+  color: #052d3f;
+  /* font-weight: 400; */
+}
+
+b {
+  background-color: rgb(255, 247, 190);
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
   div.section-content {
     padding: unset;
   }
+
+  section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
 }

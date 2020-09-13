@@ -6,7 +6,6 @@ import Read from './components/Read/Read';
 import About from './components/About/About';
 import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -22,15 +21,15 @@ function App() {
           <section id="work">
             <Work />
           </section>
-          <section id="read">
-            <Read />
-          </section>
           <section id="projects">
             <Projects />
           </section>
+          <section id="read">
+            <Read />
+          </section>
 
           <p style={{textAlign: "center"}}>
-            <i>Website last updated 8/17/20</i>
+            <i>Website last updated 9/12/20</i>
           </p>
       </div>
     </div>
