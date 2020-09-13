@@ -25,10 +25,11 @@ export default function Work(props) {
 
             <p>
                 I also run an app development club at Rice called <b><a target="_blank" rel="noopener noreferrer" href="http://riceapps.org/">RiceApps</a></b>.
+                We're about 50 members strong now, and we're building some pretty ambitious projects this year.
             </p>
 
             <p>
-                At Rice, I've TA'd a few CS courses and had an unfortunately short and hardly significant undergrad research stint in deep learning.
+                At Rice, I've served as a <b>TA for a few CS courses</b> (head TA for COMP 322, and COMP 330) and had an unfortunately short and hardly significant undergrad research stint in deep learning.
             </p>
 
             {/* <p>For more details, check out <a target="_blank" rel="noopener noreferrer" href={pdf}>my resume</a>.</p> */}
