@@ -22,9 +22,9 @@ function shadeColor(color, percent) {
     G = (G < 255) ? G : 255;
     B = (B < 255) ? B : 255;
 
-    var RR = ((R.toString(16).length == 1) ? "0" + R.toString(16) : R.toString(16));
-    var GG = ((G.toString(16).length == 1) ? "0" + G.toString(16) : G.toString(16));
-    var BB = ((B.toString(16).length == 1) ? "0" + B.toString(16) : B.toString(16));
+    var RR = ((R.toString(16).length === 1) ? "0" + R.toString(16) : R.toString(16));
+    var GG = ((G.toString(16).length === 1) ? "0" + G.toString(16) : G.toString(16));
+    var BB = ((B.toString(16).length === 1) ? "0" + B.toString(16) : B.toString(16));
 
     return "#" + RR + GG + BB;
 }
@@ -84,7 +84,7 @@ export default function Projects(props) {
                 like more time has been wasted, and so the burn stings a bit more.</p>
 
 
-            <p>Here is a <b>list of all the tools/languages/frameworks used by frequency</b>:</p>
+            <p>Here is a list of all the <b>tools/languages/frameworks</b> used by frequency:</p>
             <div style={{overflowWrap: "break-word"}}>
                 {Object.entries(toolCounts).sort((a, b) => b[1] - a[1]).map((tool, i) => <Tag count={tool[1]} key={i} tool={tool[0]} />)}
             </div>
