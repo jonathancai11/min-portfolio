@@ -14,7 +14,7 @@ div.section-content {
 }
 
 section#about {
-  background-color: #F4FEFF;
+  background-color: #e2fdff;
 }
 
 section#contact {
@@ -22,11 +22,11 @@ section#contact {
 }
 
 section#work {
-  background-color: #ffffff;
+  background-color: #e4cfc4;
 }
 
 section#projects {
-  background-color: #e4cfc4;
+  background-color: #ffffff;
 }
 
 section#read {
@@ -39,6 +39,10 @@ p, td, li, a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #052d3f;
   /* font-weight: 400; */
+}
+
+a:hover {
+  background-color: rgb(255, 232, 27);
 }
 
 b {

@@ -2,9 +2,13 @@
     display: flex;
     position: fixed;
     flex-direction: column;
-    width: 150px;
+    /* width: 150px; */
     top: 10%;
     left: 18%;
+}
+
+.sidebar>b {
+    background-color: unset !important;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,13 +1,14 @@
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
+  /* display: none; */
   width: 100%;
 }
 
 td, th {
   border: 1px solid #000000;
   text-align: left;
-  padding: 10px;
+  padding: 2px;
 }
 
 @media only screen and (max-width: 600px) {
