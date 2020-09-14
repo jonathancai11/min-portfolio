@@ -68,7 +68,7 @@ export default function Projects(props) {
 
     return (
         <div className="section-content">
-            <p>Below is <b>every (software) project I've ever worked on</b>.</p>
+            <p>Below is <b>every (software) project I've ever worked on</b> (excluding industry/coursework).</p>
 
             <p>Evidently, I've done a lot of things that I now look back on as dumb: stuff
             that provides no value to me or other people, stuff that I learned absolutely nothing from, etc.</p>
@@ -88,6 +88,7 @@ export default function Projects(props) {
             <div style={{overflowWrap: "break-word"}}>
                 {Object.entries(toolCounts).sort((a, b) => b[1] - a[1]).map((tool, i) => <Tag count={tool[1]} key={i} tool={tool[0]} />)}
             </div>
+            <br />
 
 
             <hr />
