@@ -39,7 +39,7 @@
     "link": "http://mydesktour.com/",
     "link_display": "mydesktour.com",
     "status": "Beta-launch",
-    "stack": "React, Redux, Express, GraphQL, MongoDB, Google Cloud Build, Cloudinary API, Rainforest API, Auth0, Node",
+    "stack": "React, Redux, Express, GraphQL, MongoDB, GCP, Cloudinary API, Rainforest API, Auth0, Node",
     "dev_time": "2 weeks",
     "lessons": "You gotta really give a crap about whatever you work on (especially when a salary is not on the line). Otherwise, you will not care enough to work on it when things get inevitably hard.",
     "organization": "",
@@ -70,7 +70,7 @@
     "link_display": "whattime.today",
     "status": "Launched",
     "dev_time": "1 week",
-    "stack": "React, Redux, Google Calendar API, Google Cloud Build, Google OAuth",
+    "stack": "React, Redux, Google Calendar API, GCP, Google OAuth",
     "lessons": "Deploy and get your solution in front of people asap. Solving your own problems is almost cheating. Keep dev cycles as short as humanly possible.",
     "organization": "",
     "results": "6k+ visits after launch, ~60 monthly visits, ~80 Google Calendar users."
