@@ -4,12 +4,12 @@ html {
 
 section {
   padding: 10px;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 div.section-content {
-  padding: 10px;
+  /* padding: 10px; */
   padding-left: 12%;
 }
 
@@ -32,6 +32,10 @@ section#projects {
 section#read {
   background-color: #E2DFC6;
 } */
+
+section {
+  background-color: white !important;
+}
 
 p,
 td,
