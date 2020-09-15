@@ -84,14 +84,14 @@ export default function Projects(props) {
                 like more time has been wasted, and so the burn stings a bit more.</p>
 
 
-            <p>But before we get to the projects, here are <b>metrics</b> for a few of them!</p>
+            <p>But before we get to the projects, here are <b>metrics</b> for a few of my latest!</p>
             <div class="resp-container">
                 <iframe
                     width="100%"
                     className="resp-iframe"
                     // height="50%"
                     src="https://datastudio.google.com/embed/reporting/1b7ba379-ca6e-4043-a458-dfdb6850828d/page/PJyfB"
-                    style={{ border: 0 }}></iframe>
+                    style={{ overflowY: "none"}} scrolling="no"></iframe>
             </div>
 
             <p>But of course, the goal for most of these projects were not users (Goodhart's Law feels relevant). 
