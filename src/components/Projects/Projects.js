@@ -84,8 +84,23 @@ export default function Projects(props) {
                 like more time has been wasted, and so the burn stings a bit more.</p>
 
 
+            <p>But before we get to the projects, here are <b>metrics</b> for a few of them!</p>
+            <div class="resp-container">
+                <iframe
+                    width="100%"
+                    className="resp-iframe"
+                    // height="50%"
+                    src="https://datastudio.google.com/embed/reporting/1b7ba379-ca6e-4043-a458-dfdb6850828d/page/PJyfB"
+                    style={{ border: 0 }}></iframe>
+            </div>
+
+            <p>But of course, the goal for most of these projects were not users (Goodhart's Law feels relevant). 
+                But it's still helpful to keep an eye on traffic, it's at least part of the measurement of success.</p>
+
+
+
             <p>Here is a list of all the <b>tools/languages/frameworks</b> used by frequency:</p>
-            <div style={{overflowWrap: "break-word"}}>
+            <div style={{ overflowWrap: "break-word" }}>
                 {Object.entries(toolCounts).sort((a, b) => b[1] - a[1]).map((tool, i) => <Tag count={tool[1]} key={i} tool={tool[0]} />)}
             </div>
             <br />
@@ -111,8 +126,8 @@ export default function Projects(props) {
                             </div>
                             <div className="single-project-body">
                                 <p>{project.description}</p>
-                                <div style={{overflowWrap: "break-word"}}>
-                                {/* <div style={{whiteSpace: "pre-wrap"}}> */}
+                                <div style={{ overflowWrap: "break-word" }}>
+                                    {/* <div style={{whiteSpace: "pre-wrap"}}> */}
                                     {project.stack.split(", ").map((tool, i) => {
                                         return <Tag key={i} tool={tool} />
                                     })}
