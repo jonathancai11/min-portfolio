@@ -1,5 +1,18 @@
 [
   {
+    "name": "Launch the Damn MVP",
+    "date": "Sept '20",
+    "description": "Curating a list of the MVP's for companies like Twitter, Google, Facebook, Uber, etc.",
+    "link": "https://www.launchthedamnmvp.com/",
+    "link_display": "launchthedamnmvp.com",
+    "status": "Launched",
+    "stack": "Pory.io, Airtable",
+    "dev_time": "3 hrs",
+    "lessons": "#nocode! Let's see what people think about this idea :).",
+    "organization": "",
+    "results": "TBD"
+  },
+  {
     "name": "Match",
     "date": "Jul '20",
     "icon": "https://i.imgur.com/cPBXCmv.jpeg",
@@ -23,7 +36,7 @@
     "description": "Promo deals for the hacker community.",
     "link": "https://www.hackerpromos.com/",
     "link_display": "hackerpromos.com",
-    "status": "WIP",
+    "status": "Launched",
     "stack": "Pory.io, Airtable",
     "dev_time": "8 hrs",
     "lessons": "This project has made me hop on the #nocode bandwagon. Perfect for validating an idea. I need to stop diving right into building, and validate ideas first.",
