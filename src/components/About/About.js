@@ -16,6 +16,7 @@ export default function About(props) {
                     <li>How do you build thriving communities online (eg HackerNews, ProductHunt)?</li>
                     <li>What are the most effective distribution strategies for makers?</li>
                     <li>How do you define yourself? And your purpose?</li>
+                    <li>What should I eat for lunch? And why is it so hard to decide? 🤔</li>
                 </ul>
                 <p>I study <b>computer science</b> at <b>Rice University</b>, graduating in Spring 2021.</p>
                 <p>If you're a recruiter, or just interested in that kind of thing, here's <b><a target="_blank" rel="noopener noreferrer" href={pdf}>my resume</a></b>
