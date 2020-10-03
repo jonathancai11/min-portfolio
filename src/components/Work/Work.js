@@ -3,6 +3,7 @@ import React from 'react';
 export default function Work(props) {
     return (
         <div className="section-content">
+            <div className="section-header">work</div>
             <p>
                 So far, I've worked as a <b>software engineer</b> during 3 internships.
             </p>

@@ -5,6 +5,7 @@ export default function Read(props) {
 
     return (
         <div className="section-content">
+            <div className="section-header">read</div>
             <p>I'm going to try to maintain a list of <b>books I'd like to read at some point</b>
                 (inspired by <a target="_blank" rel="noopener noreferrer" href="https://patrickcollison.com/bookshelf">
                 Patrick Collison's bookshelf</a> and what he cites as 

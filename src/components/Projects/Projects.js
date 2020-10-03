@@ -68,6 +68,7 @@ export default function Projects(props) {
 
     return (
         <div className="section-content">
+            <div className="section-header">projects</div>
             <p>Below is all of the (software) <b>projects</b> I've ever worked on (excluding industry/coursework).</p>
 
             <p>Evidently, I've done a lot of things that I now look back on as dumb: stuff

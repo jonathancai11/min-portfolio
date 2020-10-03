@@ -9,7 +9,7 @@ section {
 }
 
 div.section-content {
-  padding: 20px;
+  padding: 10px;
   padding-left: 12%;
 }
 
@@ -35,6 +35,12 @@ section#read {
 
 section {
   background-color: white !important;
+}
+
+.section-header {
+  padding: 2px;
+  font-weight: bold;
+  background-color: rgb(218, 218, 218);
 }
 
 p,
